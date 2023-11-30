@@ -35,7 +35,7 @@ app.listen(port, () => {
 (
     async() => {
     try{
-        const connection = mongoose.connect('mongodb://127.0.0.1:27017/')
+        const connection = mongoose.connect('mongodb+srv://bagpacker3778:ZqY1Uona02Iqh0wu@cluster0.wueyulq.mongodb.net/')
         if(connection){
             console.log('Successfully connected to database.')
         }
